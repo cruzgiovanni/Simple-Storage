@@ -10,7 +10,6 @@ contract SimpleStorage {
     string name;
   }
 
-  // test
   People[] public people;
 
   mapping(string => uint256) public nameToFavoriteNumber;
